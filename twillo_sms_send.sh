@@ -13,6 +13,6 @@ twillo_number=""
 curl -XPOST https://api.twilio.com/2010-04-01/Accounts/$twillo_account_sid/Messages.json \
 --data-urlencode "To=+1$1" \
 --data-urlencode "From=+1$twillo_number" \
---data-urlencode "Body=$2 $3 " \
+--data-urlencode "Body=$2  " \
 -u '$twillo_account_sid'
 
